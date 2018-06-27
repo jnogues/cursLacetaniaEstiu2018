@@ -18,8 +18,8 @@ extern "C" {
 #include "SSD1306.h" //https://github.com/squix78/esp8266-oled-ssd1306
 SSD1306  display(0x3c, 5, 4);//oled 128x64 pixels
 
-#define WIFI_SSID "elMeuWifi"
-#define WIFI_PASSWORD "elMeuPassword"
+#define WIFI_SSID "IoT-2"
+#define WIFI_PASSWORD "pitufito"
 
 #define MQTT_HOST "iot.eclipse.org"
 //#define MQTT_HOST "vps249990.ovh.net"//servidor jnogues
