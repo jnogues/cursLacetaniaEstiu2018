@@ -1,1 +1,1 @@
-![wemos32 oled](https://hackster.imgix.net/uploads/attachments/345704/lolin_esp32_5odqVKgg37.jpg)
+![wemos32 oled](https://cdn.instructables.com/FAK/RKQ0/J3YPR3IJ/FAKRKQ0J3YPR3IJ.LARGE.jpg?auto=webp&crop=3:2)
