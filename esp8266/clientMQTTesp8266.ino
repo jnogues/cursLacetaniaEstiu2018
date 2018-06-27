@@ -1,5 +1,8 @@
 //clientMQTTesp8266.ino
 //juny 2018
+//Jaume Nogues, Institut Rambla Prim
+//jnogues@gmail.com
+
 #include <JustWifi.h> //https://github.com/xoseperez/justwifi versio 2
 #define MQTT_MAX_PACKET_SIZE 256 //default 128, Jaume, modificat a PubSubClient.h
 #include <PubSubClient.h>
