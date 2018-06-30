@@ -5,9 +5,12 @@
 4. Llançar  l’executable **arduino.exe**.
 5. Instal·lar suport per ESP8266:
 	
-	a. Start Arduino and open Preferences window. 
-      b. Enter http://arduino.esp8266.com/stable/package_esp8266com_index.json into Additional Board Manager URLs field. You can add multiple URLs, separating them with commas. 
-      c. Open Boards Manager from Tools > Board menu and install esp8266 platform (and don't forget to select your ESP8266 board from Tools > Board menu after installation). 
+	Start Arduino and open Preferences window. 
+	
+	Enter http://arduino.esp8266.com/stable/package_esp8266com_index.json into Additional Board Manager URLs field. You can add 	multiple URLs, separating them with commas. 
+	
+	Open Boards Manager from Tools > Board menu and install esp8266 platform (and don't forget to select your ESP8266 board from Tools > Board menu after installation). 
+	
 6. Tancar l’Arduino IDE.
 7. Descarregar el contingut de la carpeta portable link .
 8. Descomprimir a C:\arduino1.8.5\portable
