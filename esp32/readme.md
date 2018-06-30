@@ -6,5 +6,7 @@ Entrada I16 per GPIO16.
 
 Entrada I25 per GPIO25, actuant sobre Q26, GPIO26.
 
-[Més info](https://github.com/FablabTorino/AUG-Torino/wiki/Wemos-Lolin-board-(ESP32-with-128x64-SSD1306-I2C-OLED-display))
+[Més info.](https://github.com/FablabTorino/AUG-Torino/wiki/Wemos-Lolin-board-(ESP32-with-128x64-SSD1306-I2C-OLED-display))
+
+[Més info.](https://www.hackster.io/johnnyfrx/esp32-with-integrated-oled-wemos-lolin-getting-started-07ac5d)
 
