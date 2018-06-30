@@ -3,4 +3,5 @@
 Bus I2C per GPIO4 (SCL) i GPIO5 (SDA) amb adeça 0x3c: `SSD1306 display(0x3c, 5, 4);`
 Entrada I16 per GPIO16.
 Entrada I25 per GPIO25, actuant sobre Q26, GPIO26.
+[Més info](https://github.com/FablabTorino/AUG-Torino/wiki/Wemos-Lolin-board-(ESP32-with-128x64-SSD1306-I2C-OLED-display))
 
