@@ -1,8 +1,8 @@
-0. Instal·lar els drivers USB link . 
-1. Descarregar  l’Arduino IDE 1.8.5 [link](https://github.com/jnogues/cursLacetaniaEstiu2018/tree/master/drivers) . La versió zip, no instal·lable.
-2. Descomprimir per exemple en C:\arduino1.8.5
-3. Crear una carpeta anomenada portable: C:\arduino1.8.5\portable.
-4. Llançar  l’executable arduino.exe.
+0. Instal·lar els drivers USB [link](https://github.com/jnogues/cursLacetaniaEstiu2018/tree/master/drivers) . 
+1. Descarregar  l’Arduino IDE 1.8.5 [link](https://www.arduino.cc/en/Main/Software) . La versió zip, no instal·lable.
+2. Descomprimir per exemple en **C:\arduino1.8.5**.
+3. Crear una carpeta anomenada portable: **C:\arduino1.8.5\portable**.
+4. Llançar  l’executable **arduino.exe**.
 5. Instal·lar suport per ESP8266:
 	
 	a. Start Arduino and open Preferences window. 
