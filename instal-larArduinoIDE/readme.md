@@ -17,3 +17,4 @@
 9. Descarregar el suport per ESP32 [link](https://codeload.github.com/espressif/arduino-esp32/zip/master) .
 10. Descomprimir el contingut en una carpeta **C:\arduino1.8.5\portable\sketchbook\hardware\espressif\esp32**
 12. Entrar a la carpeta **C:\arduino1.8.5\portable\sketchbook\hardware\espressif\esp32\tools** i executar **get.exe**.
+13. Ara ja podem utilitzar l'IDE.:-) 
