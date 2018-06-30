@@ -12,8 +12,8 @@
 	Open Boards Manager from Tools > Board menu and install esp8266 platform (and don't forget to select your ESP8266 board from Tools > Board menu after installation). 
 	
 6. Tancar l’Arduino IDE.
-7. Descarregar el contingut de la carpeta portable link .
-8. Descomprimir a C:\arduino1.8.5\portable
-9. Descarregar el suport per ESP32 link .
-10. Descomprimir el contingut en una carpeta C:\arduino1.8.5\portable\sketchbook\hardware\espressif\esp32
-12. Entrar a la carpeta C:\arduino1.8.5\portable\sketchbook\hardware\espressif\esp32\tools i executar get.exe.
+7. Descarregar el contingut de la carpeta portable [link](https://github.com/jnogues/cursLacetaniaEstiu2018/tree/master/portable) .
+8. Descomprimir a **C:\arduino1.8.5\portable**
+9. Descarregar el suport per ESP32 [link](https://codeload.github.com/espressif/arduino-esp32/zip/master) .
+10. Descomprimir el contingut en una carpeta **C:\arduino1.8.5\portable\sketchbook\hardware\espressif\esp32**
+12. Entrar a la carpeta **C:\arduino1.8.5\portable\sketchbook\hardware\espressif\esp32\tools** i executar **get.exe**.
