@@ -1,3 +1,7 @@
+# Arduino IDE 1.8.5 *PORTABLE*
+
+Es tracta de crear una versió portable de l'IDE que sigui exportable a la resta d'ordinadors d'una aula.
+
 0. Instal·lar els drivers USB [link](https://github.com/jnogues/cursLacetaniaEstiu2018/tree/master/drivers) . 
 1. Descarregar  l’Arduino IDE 1.8.5 [link](https://www.arduino.cc/en/Main/Software) . La versió zip, no instal·lable.
 2. Descomprimir per exemple en **C:\arduino1.8.5**.
