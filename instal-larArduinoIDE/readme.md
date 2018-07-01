@@ -1,4 +1,4 @@
-# Arduino IDE 1.8.5 *PORTABLE*
+# Arduino IDE 1.8.5 "*PORTABLE*"
 
 Es tracta de crear una versió portable de l'IDE que sigui exportable a la resta d'ordinadors d'una aula.
 
