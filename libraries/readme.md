@@ -1,1 +1,1 @@
-Llibreries d'Arduino utilitzades en aquest curs.
+# NO FER CAS D'AQUESTA CARPETA!!!!!
