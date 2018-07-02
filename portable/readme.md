@@ -1,1 +1,1 @@
-Carpeta portable per l'Arduino IDE: [portable](https://we.tl/RY9vJDAFXi), caduca en una setmana!!
+Carpeta amb les llibreries per afegir a `C:\arduino1.8.5\portable\sketchbook\libraries` per l'Arduino IDE: [libraries.zip](https://drive.google.com/file/d/17WDXd_KxvK-SNIQpFhLCvejSKTYfvdBz/view?usp=sharing), caduca en una setmana!!
