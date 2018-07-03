@@ -5,6 +5,7 @@
 3. Obre des de l’Arduino IDE l’sketch C:\kk\espurna-1.13.0\code\espurna\espurna.ino
 4. Compila i puja per la placa **nodeMCU 1.0**
 5. Un cop pujat el firmware, obre el serial monitor, a 115200 bps i Ambdos  NL & CR.
+![](serialMonitor.png)
 6. Configura via serial el nou password d’administrador: `set adminPass Melda2018`
 7. Configura les credencials wifi ssid: `set ssid0 IoT-2` password:  `set pass0 pitufito`
 8. Reseteja el wifi de l’esp8266: `reset.wifi`
