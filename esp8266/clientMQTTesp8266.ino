@@ -52,10 +52,13 @@ Adafruit_BME280 bme; // I2C
 //#define userMQTT      "pi" 
 //#define passMQTT      "raspberry"
 
-#define ssid2 "IoT-2"
+#define ssid1 "IoT-2"
+#define pass1 "pitufito"
+
+#define ssid2 "IoT"
 #define pass2 "pitufito"
 
-#define ssid3 "IoT"
+#define ssid3 "IoT-3"
 #define pass3 "pitufito"
 
 #define thisNode              "/lacetania/node-11"
