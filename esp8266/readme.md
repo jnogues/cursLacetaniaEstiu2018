@@ -8,6 +8,7 @@ Starting with 1.8.5, Arduino allows installation of third-party platform package
 * Open Boards Manager from Tools > Board menu and install esp8266 platform (and don't forget to select your ESP8266 board from Tools > Board menu after installation).
 
 Recomanació d'utilització de les GPIO's:
+
 | GPIO | Consell |
 |----------------|
 |GPIO9 |NO UTILITZAR|
