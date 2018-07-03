@@ -11,6 +11,13 @@ Recomanació d'utilització de les GPIO's:
 
 | GPIO | Consell |
 |---|---|
-| GPIO9 | NO UTILAR|
+| GPIO9 | NO UTILITZAR |
+| GPIO10 | UTILITZAR PER SENSORS |
+| GPIO0 | PER SORTIDA, AMB PULL-UP |
+| GPIO2 | PER SORTIDA, AMB PULL-UP |
+| GPIO15 | PER SORTIDA, AMB PULL-DOWN |
+| GPIO1 | NO UTILITZAR |
+| GPIO3 | NO UTILITZAR |
+| GPIO16 | BUILTIN LED |
 
 ![nodeMCU](https://i2.wp.com/www.esploradores.com/wp-content/uploads/2016/08/PINOUT-NodeMCU-1_1.8.png?fit=1026%2C570)
