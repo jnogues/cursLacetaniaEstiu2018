@@ -1,3 +1,11 @@
+# Instal·lació del suport per ESP32 a l'Arduino IDE
+
+1. Crea una carpeta `C:\kk\arduino-1.8.5\portable\sketchbook\hardware\espressif\esp32`
+2. Descarregueu el suport per [ESP32] (https://codeload.github.com/espressif/arduino-esp32/zip/master) 
+3. Descomprimeix el contingut en la carpeta creada.  
+4. Entra a la carpeta `C:\kk\arduino-1.8.5\portable\sketchbook\hardware\espressif\esp32\tools`
+5. Executa **get.exe**
+
 ![wemos32 oled](https://cdn.instructables.com/FAK/RKQ0/J3YPR3IJ/FAKRKQ0J3YPR3IJ.LARGE.jpg?auto=webp&crop=3:2)
 
 Bus I2C per GPIO4 (SCL) i GPIO5 (SDA) amb adeça 0x3c: `SSD1306 display(0x3c, 5, 4);`
