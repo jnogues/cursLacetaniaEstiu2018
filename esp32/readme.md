@@ -1,7 +1,7 @@
 # Instal·lació del suport per ESP32 a l'Arduino IDE
 
 1. Crea una carpeta `C:\kk\arduino-1.8.5\portable\sketchbook\hardware\espressif\esp32`
-2. Descarregueu el suport per [ESP32] (https://codeload.github.com/espressif/arduino-esp32/zip/master) 
+2. Descarregueu el suport per [ESP32](https://codeload.github.com/espressif/arduino-esp32/zip/master) 
 3. Descomprimeix el contingut en la carpeta creada.  
 4. Entra a la carpeta `C:\kk\arduino-1.8.5\portable\sketchbook\hardware\espressif\esp32\tools`
 5. Executa **get.exe**
