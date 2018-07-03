@@ -10,7 +10,7 @@ Starting with 1.8.5, Arduino allows installation of third-party platform package
 Recomanació d'utilització de les GPIO's:
 
 | GPIO | Consell |
-|----------------|
+|---|---|
 | GPIO9 | NO UTILAR|
 
 ![nodeMCU](https://i2.wp.com/www.esploradores.com/wp-content/uploads/2016/08/PINOUT-NodeMCU-1_1.8.png?fit=1026%2C570)
