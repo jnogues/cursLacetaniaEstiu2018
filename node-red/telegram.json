@@ -1,0 +1,246 @@
+[
+    {
+        "id": "5ddec294.8307dc",
+        "type": "telegram receiver",
+        "z": "6bcfecc3.0fae64",
+        "name": "",
+        "bot": "42a727f8.7e8218",
+        "saveDataDir": "",
+        "x": 156,
+        "y": 99,
+        "wires": [
+            [
+                "93b491c9.652b9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "fb6944a3.915fe8",
+        "type": "mqtt in",
+        "z": "6bcfecc3.0fae64",
+        "name": "",
+        "topic": "/lacetania/node-200/reply/I12",
+        "qos": "0",
+        "broker": "54d156c2.59f338",
+        "x": 176,
+        "y": 366,
+        "wires": [
+            [
+                "edd0525d.f864c"
+            ]
+        ]
+    },
+    {
+        "id": "edd0525d.f864c",
+        "type": "switch",
+        "z": "6bcfecc3.0fae64",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 371,
+        "y": 366,
+        "wires": [
+            [
+                "7561ec0e.531984"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "93b491c9.652b9",
+        "type": "debug",
+        "z": "6bcfecc3.0fae64",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 358,
+        "y": 92,
+        "wires": []
+    },
+    {
+        "id": "f70303f.f586c",
+        "type": "telegram sender",
+        "z": "6bcfecc3.0fae64",
+        "name": "",
+        "bot": "42a727f8.7e8218",
+        "x": 693,
+        "y": 357,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7561ec0e.531984",
+        "type": "function",
+        "z": "6bcfecc3.0fae64",
+        "name": "",
+        "func": "msg.payload ={ \"chatId\": 226661846, \"type\": \"message\", \"content\": \"Alarma!!!!!!! Inundació!!\" };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 503,
+        "y": 359,
+        "wires": [
+            [
+                "f70303f.f586c"
+            ]
+        ]
+    },
+    {
+        "id": "78973e44.34b1f",
+        "type": "comment",
+        "z": "6bcfecc3.0fae64",
+        "name": "sniffer",
+        "info": "",
+        "x": 117,
+        "y": 59,
+        "wires": []
+    },
+    {
+        "id": "4b15ce55.0217d",
+        "type": "telegram command",
+        "z": "6bcfecc3.0fae64",
+        "name": "",
+        "command": "q15on",
+        "bot": "42a727f8.7e8218",
+        "x": 110,
+        "y": 209,
+        "wires": [
+            [
+                "baf8c0d.eeab14"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d66560d2.0a954",
+        "type": "mqtt out",
+        "z": "6bcfecc3.0fae64",
+        "name": "",
+        "topic": "/lacetania/node-200/commands",
+        "qos": "0",
+        "retain": "false",
+        "broker": "54d156c2.59f338",
+        "x": 587,
+        "y": 226,
+        "wires": []
+    },
+    {
+        "id": "baf8c0d.eeab14",
+        "type": "function",
+        "z": "6bcfecc3.0fae64",
+        "name": "",
+        "func": "msg.payload=\"q15on\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 342,
+        "y": 202,
+        "wires": [
+            [
+                "d66560d2.0a954"
+            ]
+        ]
+    },
+    {
+        "id": "49c261b8.0a8ec",
+        "type": "telegram command",
+        "z": "6bcfecc3.0fae64",
+        "name": "",
+        "command": "q15off",
+        "bot": "42a727f8.7e8218",
+        "x": 110,
+        "y": 261,
+        "wires": [
+            [
+                "c3f34760.90af48"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c3f34760.90af48",
+        "type": "function",
+        "z": "6bcfecc3.0fae64",
+        "name": "",
+        "func": "msg.payload=\"q15off\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 338,
+        "y": 257,
+        "wires": [
+            [
+                "d66560d2.0a954"
+            ]
+        ]
+    },
+    {
+        "id": "e9154076.107d4",
+        "type": "comment",
+        "z": "6bcfecc3.0fae64",
+        "name": "on-off Q15",
+        "info": "",
+        "x": 116,
+        "y": 172,
+        "wires": []
+    },
+    {
+        "id": "cf2405e8.432de8",
+        "type": "comment",
+        "z": "6bcfecc3.0fae64",
+        "name": "alarma I12",
+        "info": "",
+        "x": 114,
+        "y": 324,
+        "wires": []
+    },
+    {
+        "id": "42a727f8.7e8218",
+        "type": "telegram bot",
+        "z": "",
+        "botname": "merda2018bot",
+        "usernames": "",
+        "chatids": "226661846",
+        "baseapiurl": "",
+        "pollinterval": "300"
+    },
+    {
+        "id": "54d156c2.59f338",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "eclipse",
+        "broker": "iot.eclipse.org",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    }
+]
