@@ -82,7 +82,7 @@
         "z": "6bcfecc3.0fae64",
         "name": "",
         "bot": "42a727f8.7e8218",
-        "x": 693,
+        "x": 689,
         "y": 357,
         "wires": [
             []
@@ -217,7 +217,7 @@
         "z": "",
         "botname": "merda2018bot",
         "usernames": "",
-        "chatids": "226661846",
+        "chatids": "",
         "baseapiurl": "",
         "pollinterval": "300"
     },
