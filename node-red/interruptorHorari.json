@@ -1,0 +1,147 @@
+[
+    {
+        "id": "63fcc9f0.259aa8",
+        "type": "inject",
+        "z": "8976dd47.74eab8",
+        "name": "ON Q26",
+        "topic": "/lacetania/esp32-14/relay/Q26/set",
+        "payload": "1",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "00 11 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 220,
+        "y": 860,
+        "wires": [
+            [
+                "982f580b.efae2"
+            ]
+        ]
+    },
+    {
+        "id": "982f580b.efae2",
+        "type": "mqtt out",
+        "z": "8976dd47.74eab8",
+        "name": "/lacetania/esp32-14/relay/Q26/set",
+        "topic": "",
+        "qos": "0",
+        "retain": "",
+        "broker": "34266933.1aff16",
+        "x": 514.272705078125,
+        "y": 866.9999389648438,
+        "wires": []
+    },
+    {
+        "id": "2bd6d142.34c326",
+        "type": "inject",
+        "z": "8976dd47.74eab8",
+        "name": "OFF Q26",
+        "topic": "/lacetania/esp32-14/relay/Q26/set",
+        "payload": "0",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "00 12 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 231.50001525878906,
+        "y": 897.0909118652344,
+        "wires": [
+            [
+                "982f580b.efae2"
+            ]
+        ]
+    },
+    {
+        "id": "9a662b0e.cfb288",
+        "type": "inject",
+        "z": "8976dd47.74eab8",
+        "name": "ON Q26",
+        "topic": "",
+        "payload": "1",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "00 09 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 217.12115478515625,
+        "y": 981.5301208496094,
+        "wires": [
+            [
+                "fad69f4.e8bf4e"
+            ]
+        ]
+    },
+    {
+        "id": "fad69f4.e8bf4e",
+        "type": "mqtt out",
+        "z": "8976dd47.74eab8",
+        "name": "/lacetania/esp32-14/relay/Q26/set",
+        "topic": "/lacetania/esp32-14/relay/Q26/set",
+        "qos": "0",
+        "retain": "",
+        "broker": "34266933.1aff16",
+        "x": 502.302978515625,
+        "y": 999.4393615722656,
+        "wires": []
+    },
+    {
+        "id": "f1438089.145a38",
+        "type": "inject",
+        "z": "8976dd47.74eab8",
+        "name": "OFF Q26",
+        "topic": "",
+        "payload": "0",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "00 10 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 225.89395141601562,
+        "y": 1018.6211853027344,
+        "wires": [
+            [
+                "fad69f4.e8bf4e"
+            ]
+        ]
+    },
+    {
+        "id": "c975a782.c1947",
+        "type": "comment",
+        "z": "8976dd47.74eab8",
+        "name": "Mètode 1",
+        "info": "",
+        "x": 193.63632202148438,
+        "y": 820.3030700683594,
+        "wires": []
+    },
+    {
+        "id": "12ca60dd.81060f",
+        "type": "comment",
+        "z": "8976dd47.74eab8",
+        "name": "Mètode 2",
+        "info": "",
+        "x": 196.21209716796875,
+        "y": 941.9847412109375,
+        "wires": []
+    },
+    {
+        "id": "34266933.1aff16",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "eclipse",
+        "broker": "iot.eclipse.org",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    }
+]
