@@ -1,0 +1,131 @@
+[
+    {
+        "id": "ec461a6a.86c688",
+        "type": "inject",
+        "z": "8976dd47.74eab8",
+        "name": "DISPARA",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "30",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "x": 238,
+        "y": 608,
+        "wires": [
+            [
+                "c7a634f4.0603d"
+            ]
+        ]
+    },
+    {
+        "id": "c7a634f4.0603d",
+        "type": "trigger",
+        "z": "8976dd47.74eab8",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "15",
+        "extend": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "name": "",
+        "x": 424.88885498046875,
+        "y": 607.2222290039062,
+        "wires": [
+            [
+                "a329bde.424164"
+            ]
+        ]
+    },
+    {
+        "id": "a329bde.424164",
+        "type": "mqtt out",
+        "z": "8976dd47.74eab8",
+        "name": "",
+        "topic": "/lacetania/node-11/relay/0/set",
+        "qos": "0",
+        "retain": "",
+        "broker": "34266933.1aff16",
+        "x": 660,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "698c3714.80c14",
+        "type": "inject",
+        "z": "8976dd47.74eab8",
+        "name": "DISPARA",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "30",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "x": 230,
+        "y": 700,
+        "wires": [
+            [
+                "c78bfcd9.af97d8"
+            ]
+        ]
+    },
+    {
+        "id": "c78bfcd9.af97d8",
+        "type": "trigger",
+        "z": "8976dd47.74eab8",
+        "op1": "q15on",
+        "op2": "q150ff",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "15",
+        "extend": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "name": "",
+        "x": 416.88885498046875,
+        "y": 699.2222290039062,
+        "wires": [
+            [
+                "f352b2ab.54322"
+            ]
+        ]
+    },
+    {
+        "id": "f352b2ab.54322",
+        "type": "mqtt out",
+        "z": "8976dd47.74eab8",
+        "name": "",
+        "topic": "/lacetania/node-11/commands",
+        "qos": "0",
+        "retain": "",
+        "broker": "34266933.1aff16",
+        "x": 640,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "34266933.1aff16",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "eclipse",
+        "broker": "iot.eclipse.org",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    }
+]
