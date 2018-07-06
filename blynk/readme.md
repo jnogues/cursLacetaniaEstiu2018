@@ -14,5 +14,6 @@
 ```
 4. Crea un fitxer de text anomenat `server.properties` amb aquest [contingut](https://github.com/blynkkk/blynk-server/blob/master/server/core/src/main/resources/server.properties).
 5. Inicia el servidor amb el comandament:
-`java -jar server-0.38.4.jar -dataFolder C:\blynk -serverConfig C:\blynk\server.properties
+`java -jar server-0.38.4.jar -dataFolder C:\blynk -serverConfig C:\blynk\server.properties`
+
     
